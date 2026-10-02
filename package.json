@@ -1,7 +1,7 @@
 {
   "name": "@k1sh0r3/presql",
   "version": "0.1.0",
-  "description": "PreSQL \u2014 a seatbelt for AI-generated SQL. An MCP server that validates queries pre-execution.",
+  "description": "PreSQL — a seatbelt for AI-generated SQL. An MCP server that validates queries pre-execution.",
   "main": "./dist/src/index.js",
   "directories": {
     "test": "tests"
@@ -42,5 +42,8 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.31.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
